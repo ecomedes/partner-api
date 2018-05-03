@@ -1,10 +1,10 @@
 # Product Detail
 
-## GET /v1/products/BRAND_IDENTIFIER/SKU
+## GET /v1/products/BRAND_IDENTIFIER/SKU?token=TOKEN
 
 Query params
 
-* `token` - Your API token
+* `TOKEN` - Your API token
 
 Route params
 
