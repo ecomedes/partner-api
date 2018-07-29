@@ -15,6 +15,7 @@ POST https://fulcrum.ecomedes.com/v1/projects/evaluate?token=TOKEN
 
 e.g.
 
+```sh
 curl -X POST -H "Content-Type: application/json" 'https://fulcrum.ecomedes.com/v1/projects/evaluate?token=TOKEN' --data '{
     "products": {
         "interface/8221007999G17S001": {
@@ -33,9 +34,11 @@ curl -X POST -H "Content-Type: application/json" 'https://fulcrum.ecomedes.com/v
         "nc-2009"
     ]
 }'
+```
 
 Multiple products
 
+```sh
 curl -X POST -H "Content-Type: application/json" 'https://fulcrum.ecomedes.com/v1/projects/evaluate?token=TOKEN' --data '{
     "products": {
         "interface/8221007999G17S001": {
@@ -60,3 +63,4 @@ curl -X POST -H "Content-Type: application/json" 'https://fulcrum.ecomedes.com/v
         "nc-2009"
     ]
 }'
+```
